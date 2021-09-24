@@ -1,0 +1,7 @@
+@mixin box-shadow{
+    padding: 20px;
+    margin-bottom: 20px;
+
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 20px -10px;
+}

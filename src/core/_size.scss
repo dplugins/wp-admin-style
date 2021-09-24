@@ -1,0 +1,62 @@
+// Sizes
+$sizes: (
+    "xs":   2,
+    "s":    5,
+    "m":    10,
+    "l":    25,
+    "xl":   50,
+    "xxl":  100,
+);
+
+// Sizes
+:root {
+  // each item in color map
+  @each $name, $size in $sizes {
+    --wpst-space__#{$name}: #{$size}px;
+  }
+}
+
+
+
+@each $name, $size in $sizes {
+
+    // Padding
+    //--------
+    .p__#{$name}{  padding: var(--wpst-space__#{$name}); }
+    .p-top__#{$name}{  padding-top: var(--wpst-space__#{$name}); }   
+    .p-bottom__#{$name}{   padding-bottom: var(--wpst-space__#{$name}); }  
+    .p-left__#{$name}{  padding-left: var(--wpst-space__#{$name}); }   
+    .p-right__#{$name}{   padding-right: var(--wpst-space__#{$name}); }   
+    .p-y__#{$name}{  
+        padding-top: var(--wpst-space__#{$name});
+        padding-bottom: var(--wpst-space__#{$name}); }   
+
+    .p-x__#{$name}{  
+        padding-left: var(--wpst-space__#{$name});
+        padding-right: var(--wpst-space__#{$name}); }   
+    
+    // Margin
+    //-------
+    .m__#{$name}{  margin: var(--wpst-space__#{$name}); }
+    .m__#{$name}{  margin: var(--wpst-space__#{$name}); }
+    .m-top__#{$name}{  margin-top: var(--wpst-space__#{$name}); }
+    .m-bottom__#{$name}{   margin-bottom: var(--wpst-space__#{$name});  }
+    .m-left__#{$name}{  margin-left: var(--wpst-space__#{$name}); }
+    .m-right__#{$name}{   margin-right: var(--wpst-space__#{$name});  }
+    .m-y__#{$name}{   
+      margin-top: var(--wpst-space__#{$name});
+      margin-bottom: var(--wpst-space__#{$name});  }
+    .m-x__#{$name}{   
+      margin-left: var(--wpst-space__#{$name});
+      margin-right: var(--wpst-space__#{$name});  }
+}
+
+
+// Reset Padding and Marging
+.p__none{   padding: 0; }
+.p-top__none{   padding-top: 0; }
+.p-bottom__none{   padding-bottom: 0; }
+
+.m__none{   margin: 0; }
+.m-top__none{   margin-top: 0; }
+.m-bottom__none{   margin-bottom: 0; }

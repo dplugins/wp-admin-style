@@ -1,0 +1,12 @@
+.wpst__nav-list{
+    a{
+        @extend .full-w__space-between;
+        
+        background: $disabled;
+        color: $pri;
+        text-decoration: none;
+        border-radius: var(--wpst-space__xs);
+        padding: var(--wpst-space__s);
+        line-height: 1;
+    }
+}
