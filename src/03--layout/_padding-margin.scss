@@ -1,0 +1,42 @@
+@each $name, $size in $sizes {
+
+    // Padding
+    //--------
+    .p-#{$name}{  padding: var(--space-#{$name}); }
+    .p-top-#{$name}{  padding-top: var(--space-#{$name}); }   
+    .p-bottom-#{$name}{   padding-bottom: var(--space-#{$name}); }  
+    .p-left-#{$name}{  padding-left: var(--space-#{$name}); }   
+    .p-right-#{$name}{   padding-right: var(--space-#{$name}); }   
+    .p-y-#{$name}{  
+        padding-top: var(--space-#{$name});
+        padding-bottom: var(--space-#{$name}); }   
+
+    .p-x-#{$name}{  
+        padding-left: var(--space-#{$name});
+        padding-right: var(--space-#{$name}); }   
+    
+    // Margin
+    //-------
+    .m-#{$name}{  margin: var(--space-#{$name}); }
+    .m-#{$name}{  margin: var(--space-#{$name}); }
+    .m-top-#{$name}{  margin-top: var(--space-#{$name}); }
+    .m-bottom-#{$name}{   margin-bottom: var(--space-#{$name});  }
+    .m-left-#{$name}{  margin-left: var(--space-#{$name}); }
+    .m-right-#{$name}{   margin-right: var(--space-#{$name});  }
+    .m-y-#{$name}{   
+      margin-top: var(--space-#{$name});
+      margin-bottom: var(--space-#{$name});  }
+    .m-x-#{$name}{   
+      margin-left: var(--space-#{$name});
+      margin-right: var(--space-#{$name});  }
+}
+
+
+// Reset Padding and Marging
+.p-none{   padding: 0; }
+.p-top-none{   padding-top: 0; }
+.p-bottom-none{   padding-bottom: 0; }
+
+.m-none{   margin: 0; }
+.m-top-none{   margin-top: 0; }
+.m-bottom-none{   margin-bottom: 0; }

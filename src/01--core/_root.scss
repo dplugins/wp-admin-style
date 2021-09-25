@@ -1,0 +1,17 @@
+:root {
+
+    // Sizes 
+    @each $name, $size in $sizes {
+      --space-#{$name}: #{$size}px;
+    }
+
+    
+    --break: =============;
+
+
+    // Colors 
+    @each $name, $color in $colors {
+      --#{$name}: #{$color};
+    }
+
+}

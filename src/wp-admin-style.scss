@@ -1,17 +1,15 @@
 // @import 'core/reset';
-@import 'core/colors';
-@import 'core/mixin';
-@import 'core/size';
+@import '01--core/colors';
+@import '01--core/size';
+@import '01--core/mixin';
+@import '01--core/root';
 
-@import 'core/utility';
+@import '02--elements/icon';
 
-@import 'elements/icon';
+@import '03--layout/layout-utility';
+@import '03--layout/padding-margin.scss';
+@import '03--layout/flex.scss';
+@import '03--layout/grid.scss';
 
-@import 'components/nav-list';
-
-@import 'layout/card';
-@import 'layout/layout-utility';
-
-// .wpst__theme{
-//     background-color: var(--wpst-bg);
-// }
+@import '04--components/card';
+@import '04--components/nav-list';
