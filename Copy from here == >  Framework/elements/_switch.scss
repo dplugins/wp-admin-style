@@ -1,0 +1,57 @@
+.dp__switch{
+    cursor: pointer;
+    display: inline-flex;
+
+    label{
+        display: inline-flex;
+        color: white;
+    }
+
+    input{
+        display: none;
+    }
+
+    .rwmb-switch-status{        
+        display: flex;
+        align-items: center;
+
+        width: 60px;
+        height: 28px;
+        padding: 8px;
+        box-sizing: border-box;        
+        position: relative;
+
+        background: $disabled;
+        border-radius: 100px;  
+
+        .rwmb-switch-on{
+            opacity: 0;
+        }
+    }
+
+    .rwmb-switch-slider{
+        width: 22px;
+        height: 22px;
+        border-radius: 100px;
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        background-color: white;
+        transition: all 0.3s ease;
+        box-shadow: 1px 2px 3px #0000004d;
+    }
+
+     input:checked ~ .rwmb-switch-status{
+        background: $pri; 
+
+        .rwmb-switch-on{
+            opacity: 1;
+        }
+
+        .rwmb-switch-slider{
+            transform: translateX(30px);
+            transition: all 0.3s ease;
+        }
+     }
+
+}

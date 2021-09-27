@@ -1,0 +1,23 @@
+.dp__tooltip{
+	position: relative;
+	width: fit-content;
+
+	span{
+		display: none;
+		border-radius: 4px;
+		background-color: $text_sec;
+		color: $bg;
+		padding: var(--space__xs);
+		position: absolute;
+
+		white-space: nowrap;
+
+    	left: 50%;
+    	top: calc(-100% - var(--space__xxs));
+    	transform: translateX(-50%);
+	}
+
+	&:hover span{ 
+		display: block; 
+	}
+}

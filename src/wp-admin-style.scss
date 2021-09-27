@@ -6,10 +6,12 @@
 
 @import '02--elements/icon';
 
-@import '03--layout/layout-utility';
-@import '03--layout/padding-margin.scss';
-@import '03--layout/flex.scss';
-@import '03--layout/grid.scss';
+@import '03--utility/visibility';
 
-@import '04--components/card';
-@import '04--components/nav-list';
+@import '04--layout/layout-utility';
+@import '04--layout/padding-margin.scss';
+@import '04--layout/flex.scss';
+@import '04--layout/grid.scss';
+
+@import '05--components/card';
+@import '05--components/nav-list';

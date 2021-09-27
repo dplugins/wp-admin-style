@@ -1,0 +1,36 @@
+:root {
+    --dp__pri:      #2a6df4;
+    --dp__pri-hover:#0c57ed;
+    --dp__sec:      #ffeb57;
+    --dp__sec-hover:#edba39;
+
+    --dp__text:     #000000;
+    --dp__text_sec: #606e79;    
+    --dp__bg:       #ffffff;
+    --dp__bg_sec:   #f0f0f1;
+    
+    --dp__border:   #d3d3d4;
+    --dp__disabled: #dee1e3;
+    
+    --dp__info:     #3FA7D6;
+    --dp__alert:    #c41c3b;
+    --dp__success:  #59CD90;
+}
+
+$pri_h:     var(--dp__pri-hover);
+$pri:       var(--dp__pri);
+$sec:       var(--dp__sec);
+$sec_h:     var(--dp__sec-hover);
+
+$text:      var(--dp__text);
+$text_sec:  var(--dp__text_sec);
+
+$bg:        var(--dp__bg);
+$bg_sec:    var(--dp__bg_sec);
+
+$border:    var(--dp__border);
+$disabled:  var(--dp__disabled);
+
+$info: var(--dp__info);
+$alert: var(--dp__alert);
+$success: var(--dp__success);

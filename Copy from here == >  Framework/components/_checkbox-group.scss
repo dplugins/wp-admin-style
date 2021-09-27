@@ -1,0 +1,28 @@
+.dp__checkbox-group{
+	display: flex;
+	flex-direction: column;
+
+	h1, h2, h3, h4{
+		margin: 0;
+	}
+
+	.of-input{
+		margin-bottom: var(--space__s);
+		// font-size: 1.3em;
+	}
+
+	.dp__checkbox-group--children{
+		display: flex;
+		flex-direction: column;
+		margin-left: var(--space__xs);
+		
+		.of-input{
+			font-size: 1em;
+			margin-bottom: var(--space__xs);
+
+			:not(input[type=checkhox]){
+				margin: 0 5px 0 10px ;
+			}
+		}
+	}
+}
