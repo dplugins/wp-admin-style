@@ -1,4 +1,4 @@
-.dp__checkbox{
+.wp_admin_style{
     *{
         box-sizing: border-box;
     }
@@ -22,8 +22,8 @@
         background: none;
         border: 2px solid $border;
         
-        height: var(--space__s) !important;
-        width: var(--space__s) !important;
+        height: var(--space-l) !important;
+        width: var(--space-l) !important;
         margin: 0;
         margin-right: 5px;
         position: relative;

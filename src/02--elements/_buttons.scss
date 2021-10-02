@@ -1,0 +1,99 @@
+.wp_admin_style{
+    
+    // Theme
+    .btn{
+        display: inline-flex;
+        align-items: center;
+
+        font-size: 1.1em;
+        letter-spacing: 0.02em;
+        text-decoration: none;  
+        
+        padding: var(--space-m);  
+        
+        font-weight: 300;
+        
+        outline: 0;
+        border: 0;
+
+        cursor: pointer;
+        background: $bg;
+        color: $pri;
+        border: 2px solid $pri;
+        border-radius: 3px;
+
+        transition: all 0.1s ease;
+            
+        &:hover{
+            opacity: 0.9;
+        }
+    
+        &:active{
+            transform: translateY(2px);
+        }
+    }
+    
+    
+    .btn-pri{
+        background: $pri;
+        border: 2px solid $pri;
+        color: white;   
+        
+        &:hover, &:focus{
+            color: white;   
+        }
+    }
+    
+    .btn-sec{
+        background: $sec;
+        border: 2px solid $sec;
+        color: black;
+    }
+    
+    .btn-delete{
+        background: $alert;
+        border: 2px solid $alert;
+        color: white;
+    }
+    
+    .btn-text{
+        background: none;
+        color: $pri;
+        text-decoration: underline;
+        border: 2px solid transparent;
+    
+        &:hover{
+            border: 2px solid $pri;
+            text-decoration: none;
+        }
+    }
+    
+    
+    
+    // Sizes
+    .btn-lg{
+        font-size: 1.5em;
+    }
+    
+    .btn-sm{
+        font-size: 0.9em;
+    }
+    
+    .btn-xsm{
+        font-size: 0.9em;
+        line-height: 1;
+    }
+    
+    
+    
+    
+    // Special 
+    .btn-icon{
+        gap: var(--space__xs);
+        svg{
+            fill: currentColor;
+        }
+    }
+    
+    
+    }  // End of dP Framework

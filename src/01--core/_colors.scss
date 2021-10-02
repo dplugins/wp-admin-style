@@ -4,10 +4,10 @@ $colors: (
     "sec":          #ffeb57,
     "sec-hover":    #edba39,
 
-    "text":         #000000,
+    "text":         #1d2327,
     "text-sec":     #606e79,    
-    "bg":           #ffffff,
-    "bg-sec":       #f0f0f1,
+    "bg":           #f0f0f1,
+    "bg-sec":       #ffffff,
     
     "border":       #d3d3d4,
     "disabled":     #dee1e3,
@@ -17,6 +17,18 @@ $colors: (
     "success":      #59CD90,
 );
 
+$colors-dark: (
+    "text":         #f0f0f1,
+    "text-sec":     #ffffff,    
+    "bg":           #262b2f,
+    "bg-sec":       #262625,
+    
+    "border":       #494949,
+    "disabled":     #dee1e3,
+);
+
+
+
 
 $pri:       var(--pri);
 $sec:       var(--sec);
@@ -24,7 +36,7 @@ $pri_h:     var(--pri-hover);
 $sec_h:     var(--sec-hover);
 
 $text:      var(--text);
-$text_sec:  var(--text_sec);
+$text_sec:  var(--text-sec);
 
 $bg:        var(--bg);
 $bg-sec:    var(--bg-sec);

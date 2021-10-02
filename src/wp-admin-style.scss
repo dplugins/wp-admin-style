@@ -3,13 +3,20 @@
 @import '01--core/size';
 @import '01--core/mixin';
 @import '01--core/root';
+@import '01--core/typography';
 
 @import '02--elements/icon';
+@import '02--elements/buttons';
+@import '02--elements/checkbox';
+@import '02--elements/radio';
+@import '02--elements/switch';
+@import '02--elements/input';
 
 @import '03--utility/visibility';
 
 @import '04--layout/layout-utility';
 @import '04--layout/padding-margin.scss';
+@import '04--layout/container.scss';
 @import '04--layout/flex.scss';
 @import '04--layout/grid.scss';
 
