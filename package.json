@@ -1,6 +1,6 @@
 {
   "name": "wp-admin-style",
-  "version": "0.0.1",
+  "version": "0.0.14",
   "description": "Elements oriented CSS Framework. UI Components for Building WordPress Plugins.",
   "main": "index.js",
   "dependencies": {},
@@ -22,7 +22,8 @@
     "plugins",
     "framework",
     "css",
-    "scss"
+    "scss",
+    "dplugins"
   ],
   "author": "dplugins",
   "license": "ISC",
