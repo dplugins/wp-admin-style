@@ -29,3 +29,26 @@ $columns: 12;
         grid-row: span $i;
     }
 }
+
+
+.align-center, 
+.grid-v-center{
+    align-self: center;
+}
+
+.align-end, 
+.grid-v-end{
+    align-self: end;
+}
+
+
+
+.justify-center,
+.grid-h-center{
+    justify-items: center;
+}
+
+.justify-end, 
+.grid-h-end{
+   justify-self: end;
+}
