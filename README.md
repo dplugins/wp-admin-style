@@ -56,4 +56,7 @@ function wpast_body_classes( $classes ) {
 add_filter( 'body_class', 'wpast_body_classes' );
 ```
 
+## What WP Admin Style is not?
+Front end framework for websites. We do not want to bloat it with bells and wisless that website needs. We want to optimise it for only WordPress components.
+
 [Link to the Official website](https://wpadminstyle.com/)
