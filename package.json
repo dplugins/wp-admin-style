@@ -3,12 +3,14 @@
   "version": "0.0.1",
   "description": "Elements oriented CSS Framework. UI Components for Building WordPress Plugins.",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dplugins/WP-Admin-Style.git"
+    "url": "git+https://github.com/dplugins/wp-admin-style.git"
   },
   "keywords": [
     "wp",
@@ -22,10 +24,10 @@
     "css",
     "scss"
   ],
-  "author": "dPlugins",
+  "author": "dplugins",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dplugins/WP-Admin-Style/issues"
+    "url": "https://github.com/dplugins/wp-admin-style/issues"
   },
-  "homepage": "https://github.com/dplugins/WP-Admin-Style#readme"
+  "homepage": "https://github.com/dplugins/wp-admin-style#readme"
 }
