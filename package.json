@@ -1,0 +1,31 @@
+{
+  "name": "wp-admin-style",
+  "version": "0.0.1",
+  "description": "Elements oriented CSS Framework. UI Components for Building WordPress Plugins.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dplugins/WP-Admin-Style.git"
+  },
+  "keywords": [
+    "wp",
+    "wordpress",
+    "admin",
+    "style",
+    "style",
+    "plugin",
+    "plugins",
+    "framework",
+    "css",
+    "scss"
+  ],
+  "author": "dPlugins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dplugins/WP-Admin-Style/issues"
+  },
+  "homepage": "https://github.com/dplugins/WP-Admin-Style#readme"
+}
