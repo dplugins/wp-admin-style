@@ -1,21 +1,51 @@
 .wp_admin_style{
+    font-size: 16px;
     background-color: $bg;
     color: $text;
 
-    // * {
-    //     color: $text-sec;
-    // }
-
     h1, h2, h3, h4, h5, h6{
         color: $text;
+        line-height: 1.2;
     }
-    
+
     .title-large{
         font-size: 3em;
     }
 
+    h1, .h1{
+        font-size: 2.5em;
+    }
+    
+    h2, .h2{
+        font-size: 1.9em;
+    }
+
+    h3, .h3{
+        font-size: 1.6em;
+    }
+    
+    h4, .h4{
+        font-size: 1.3em;
+    }
+    
+    h5, .h5{
+        font-size: 1.15em;
+    }
+    
+    h6, .h6{
+        font-size: 1em;
+    }
+
+    p{
+        font-size: 1em;
+    }
+    
     .body-size{
         font-size: 1em;
+    }
+    
+    .small, .footnote{
+        font-size: 0.75em;
     }
 
 }

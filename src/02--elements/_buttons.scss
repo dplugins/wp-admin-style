@@ -37,10 +37,10 @@
     .btn-pri{
         background: $pri;
         border: 2px solid $pri;
-        color: white;   
+        color: $pri-hi;   
         
         &:hover, &:focus{
-            color: white;   
+            color: $pri-hi;   
         }
     }
     
@@ -53,7 +53,7 @@
     .btn-delete{
         background: $alert;
         border: 2px solid $alert;
-        color: white;
+        color: $pri-hi;
     }
     
     .btn-text{

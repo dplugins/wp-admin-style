@@ -1,8 +1,10 @@
 $colors: (
     "pri":          #2a6df4,
     "pri-hover":    #0c57ed,
+    "pri-highlight":    white,
     "sec":          #ffeb57,
     "sec-hover":    #edba39,
+    "sec-highlight":    #271403,
 
     "text":         #1d2327,
     "text-sec":     #606e79,    
@@ -33,7 +35,9 @@ $colors-dark: (
 $pri:       var(--pri);
 $sec:       var(--sec);
 $pri_h:     var(--pri-hover);
+$pri_hi:     var(--pri-highlight);
 $sec_h:     var(--sec-hover);
+$sec_hi:     var(--sec-highlight);
 
 $text:      var(--text);
 $text_sec:  var(--text-sec);
