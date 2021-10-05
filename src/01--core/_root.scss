@@ -1,7 +1,7 @@
 :root {
 
-    // Sizes 
-    @each $name, $size in $sizes {
+    // spaces 
+    @each $name, $size in $spaces {
       --space-#{$name}: #{$size}px;
     }
 

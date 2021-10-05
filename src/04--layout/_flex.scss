@@ -29,7 +29,7 @@
     }
 }
 
-@each $name, $size in $sizes {
+@each $name, $size in $spaces {
 
     .flex-gap-#{$name} {
         --gap: var(--space-#{$name});

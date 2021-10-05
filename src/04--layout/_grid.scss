@@ -3,7 +3,7 @@
     display: grid;
 }
 
-@each $name, $size in $sizes {
+@each $name, $size in $spaces {
     .grid-gap-#{$name}{
         --gap: var(--space-#{$name});
         gap: var(--gap);

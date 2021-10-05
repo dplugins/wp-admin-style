@@ -1,4 +1,4 @@
-@each $name, $size in $sizes {
+@each $name, $size in $spaces {
     .border-radius-#{$name}, .b-r-#{$name}{
         border-radius: var(--space-#{$name});
     }
