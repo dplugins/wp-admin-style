@@ -1,0 +1,49 @@
+.wp_admin_style .ui-datepicker{
+    @include input;
+    background: $bg-sec;
+    min-width: 250px;
+    
+    a{
+        text-decoration: none;
+        color: $pri;
+        cursor: pointer;
+    }
+
+    .ui-datepicker-header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+
+        .ui-datepicker-next{
+            order: 3; // Move Next Arrow to the end
+        }
+    }
+
+    table {
+        width: 100%;
+
+        td{
+            text-align: center;
+            
+
+            a{
+                padding: 5px 0;
+                // background-color: lightblue;
+                width: 100%;
+                display: block;
+
+                &:hover{
+                    background: $pri;
+                    color: $pri_hi;
+                }
+            }
+        }
+    }
+
+    .ui-datepicker-today a{
+        background: $sec;
+        color: $sec_hi;
+    }
+    
+}
