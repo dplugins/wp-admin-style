@@ -1,0 +1,65 @@
+@mixin input{
+    // font-family: $typo;
+    font-size: 1em;
+    line-height: 1;
+    border: 2px solid $border;
+    transition: border-color 0.2s ease;
+    border-radius: 2px;
+    min-width: 250px;
+
+    padding: var(--space-m);
+
+    &:hover{
+        border: 2px solid $pri;	}
+
+    &:focus{
+        border: 2px solid $pri;	}
+
+    &:active{
+        border: 2px solid $border;	
+    }	
+}
+
+// .dp__input {
+.wp_admin_style {
+    input[type=color], 
+    input[type=date], 
+    input[type=datetime-local], 
+    input[type=datetime], 
+    input[type=email], 
+    input[type=month], 
+    input[type=number], 
+    input[type=password], 
+    input[type=search], 
+    input[type=tel], 
+    input[type=text], 
+    input[type=time], 
+    input[type=url], 
+    input[type=week], 
+    select, 
+    textarea
+    {
+
+        @include input;
+
+    }
+}
+
+input[type=color], 
+input[type=date], 
+input[type=datetime-local], 
+input[type=datetime], 
+input[type=email], 
+input[type=month], 
+input[type=number], 
+input[type=password], 
+input[type=search], 
+input[type=tel], 
+input[type=text], 
+input[type=time], 
+input[type=url], 
+input[type=week], 
+select, 
+textarea{
+    background: $bg-sec;
+}

@@ -1,0 +1,53 @@
+.wp_admin_style .select2-container{
+
+    .select2-selection__rendered{
+        @include input;
+        line-height: 1 !important;
+        background: $bg-sec;
+    }
+
+    .select2-selection--single{
+        background-color: unset;
+        border: unset;
+        border-radius: unset;
+        height: 100%;
+
+        .select2-selection__arrow {
+            height: 100%;
+        }  
+    }
+
+    .select2-dropdown{
+        background-color: $bg-sec;
+        border: 2px solid $border;
+        border-radius: 2px;
+    }
+
+    .select2-dropdown--below{
+        top: -2px;
+    }
+
+    .select2-dropdown--above{
+        top: 2px;
+    }
+
+    .select2-search--dropdown{
+        .select2-search__field{
+            @include input;
+            min-width: unset;
+        }
+    }
+
+
+    .select2-results__option--selected {
+        display: none;
+    }
+    
+    .select2-results__option--highlighted.select2-results__option--selectable {
+        background-color: $pri;
+        color: $pri_hi;
+    }
+
+
+}
+

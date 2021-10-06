@@ -9,20 +9,22 @@ img {
 @import '01--core/root';
 @import '01--core/typography';
 
-@import '02--elements/icon';
-@import '02--elements/buttons';
-@import '02--elements/checkbox';
-@import '02--elements/radio';
-@import '02--elements/switch';
-@import '02--elements/input';
+@import '02--layout/visibility';
+@import '02--layout/layout-utility';
+@import '02--layout/container.scss';
+@import '02--layout/flex.scss';
+@import '02--layout/grid.scss';
+@import '02--layout/padding-margin.scss';
 
-@import '03--utility/visibility';
+@import '03--elements/icon';
+@import '03--elements/buttons';
+@import '03--elements/checkbox';
+@import '03--elements/radio';
+@import '03--elements/switch';
+@import '03--elements/input';
+@import '03--elements/select';
+@import '03--elements/select2';
 
-@import '04--layout/layout-utility';
-@import '04--layout/container.scss';
-@import '04--layout/flex.scss';
-@import '04--layout/grid.scss';
-@import '04--layout/padding-margin.scss';
 
 @import '05--components/card';
 @import '05--components/nav-list';
