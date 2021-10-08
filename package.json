@@ -1,6 +1,6 @@
 {
   "name": "wp-admin-style",
-  "version": "0.0.152",
+  "version": "0.0.16",
   "description": "Elements oriented CSS Framework. UI Components for Building WordPress Plugins.",
   "main": "index.js",
   "dependencies": {},
@@ -30,5 +30,5 @@
   "bugs": {
     "url": "https://github.com/dplugins/wp-admin-style/issues"
   },
-  "homepage": "https://wpadminstyle.com/"
+  "homepage": "https://wpadminstyle.com"
 }

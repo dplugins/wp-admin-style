@@ -1,10 +1,4 @@
-.wp_admin_style .select2-container{
-
-    .select2-selection__rendered{
-        @include input;
-        line-height: 1 !important;
-        background: $bg-sec;
-    }
+.wp_admin_style .select2-container {
 
     .select2-selection--single{
         background-color: unset;
@@ -15,6 +9,12 @@
         .select2-selection__arrow {
             height: 100%;
         }  
+
+        .select2-selection__rendered{
+            @include input;
+            line-height: 1 !important;
+            background: $bg-sec;
+        }
     }
 
     .select2-dropdown{

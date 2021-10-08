@@ -1,0 +1,38 @@
+.wp_admin_style {
+    .select2-container{
+        .select2-selection--multiple{
+            @include input;
+            border: solid $border 2px !important;
+            line-height: 1 !important;
+            background: $bg-sec;
+            padding: var(--space-xs);
+    
+            .select2-selection__choice{
+                border: 0px;
+                background-color: $bg;
+                border: 1px solid $border;
+                border-radius: 2px;
+                padding: 1px;
+                display: inline-flex;
+
+                button{
+                    border-radius: 0;
+                    border-width: 0;
+                    position: relative;
+
+                    &:hover{
+                        background:$pri;
+                        color:$pri-hi;
+                    }
+                }
+
+                span{
+                    // padding: 4px;
+                }
+            }
+        }
+    }
+
+
+}
+
