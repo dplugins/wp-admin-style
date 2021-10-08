@@ -1,0 +1,9 @@
+.checkboxes-group, 
+.checkboxes-group__child{
+    display: grid;
+    gap: var(--space-m);
+}
+
+.checkboxes-group__child{
+    margin-left: var(--space-m);
+}

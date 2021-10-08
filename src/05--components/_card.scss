@@ -13,4 +13,12 @@
     .header, .content, .footer{
         padding: var(--space-l);
     }
+
+    .header{
+        border-bottom: 1px solid $border;
+    }
+
+    .footer{
+        border-top: 1px solid $border;
+    }
 }
