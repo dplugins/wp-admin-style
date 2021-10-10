@@ -1,0 +1,39 @@
+.wp_admin_style{
+    .tooltip-wrap{
+        position: relative;
+        width: fit-content;
+    
+        .tooltip{
+            display: none;
+            border-radius: 4px;
+            background-color: $text_sec;
+            color: $bg;
+            padding: var(--space-s);
+            position: absolute;
+    
+            white-space: nowrap;
+    
+            left: 50%;
+            bottom: calc(100% + var(--space-m));
+            transform: translateX(-50%);
+            max-width: 400px;
+        }
+
+        .tooltip-right{
+            left: calc(100% + var(--space-m));
+            transform: translateX(0);
+            transform: translateY(-50%);
+            top: 50%;
+            bottom: unset;
+        }
+
+        &:hover span{ 
+            display: block; 
+
+            a{
+                color: $bg;
+            }
+        }
+    }
+}
+
