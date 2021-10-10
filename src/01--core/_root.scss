@@ -17,7 +17,6 @@
 }
 
 // Colors Dark 
-
 [data-theme="dark"]{
   @each $name, $color in $colors-dark {
     --#{$name}: #{$color};

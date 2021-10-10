@@ -3,8 +3,8 @@
 
 It is intended to replace default WordPress styling and to help us unify all our plugins.
 
-1. To start inclide dist/wp-admin-style.css
-2. Wrap your deside with wp-admin-style class
+1. To start include dist/wp-admin-style.css
+2. Wrap your content with wp-admin-style class
 
 ```
 <div class="wp-admin-style">
@@ -57,6 +57,6 @@ add_filter( 'body_class', 'wpast_body_classes' );
 ```
 
 ## What WP Admin Style is not?
-Front end framework for websites. We do not want to bloat it with bells and wisless that website needs. We want to optimise components for only WordPress plugins backend.
+Front end framework for websites. We do not want to bloat it with bells and whistles that the website needs. We want to  optimize components for only WordPress plugins' backend.
 
 [Link to the Official website](https://wpadminstyle.com/)
