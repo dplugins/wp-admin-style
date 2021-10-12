@@ -1,0 +1,20 @@
+.wp_admin_style .nav-tab-wrapper{
+
+    padding: 0;
+    border: 0;
+
+    a{
+        margin: 0;
+        margin-right: var(--space-l);
+        color: $text;
+        background: transparent;
+        padding: var(--space-s) 0;
+        border: 0px solid transparent;
+        border-bottom: 3px solid transparent;
+    }
+
+    .nav-tab-active{
+        color: $pri;
+        border-bottom: 3px solid $pri;
+    }
+}

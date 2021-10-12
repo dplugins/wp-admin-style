@@ -1,6 +1,6 @@
 {
   "name": "wp-admin-style",
-  "version": "0.0.171",
+  "version": "0.0.172",
   "description": "Elements oriented CSS Framework. UI Components for Building WordPress Plugins.",
   "main": "index.js",
   "dependencies": {},

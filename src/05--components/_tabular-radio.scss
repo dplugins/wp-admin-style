@@ -1,0 +1,32 @@
+.wp_admin_style .tabular_radio{
+    display: flex;
+    gap: var(--space-m);
+
+    label{
+        margin-right: var(--space-xs);
+        
+        span{
+            padding: var(--space-xs) var(--space-s);
+            display: inline-block;
+            background: $bg;
+            cursor: pointer;
+            border-radius: var(--space-xxs);
+            border: 1px solid transparent;
+            border-radius: 2px;
+
+            &:hover{
+                border: 1px solid $border;
+            }
+        }
+    }
+
+    input{
+        display: none;
+
+        &:checked ~ span{
+            background: $pri;
+            color: white;
+            border: 1px solid $pri;
+        }
+    }
+}

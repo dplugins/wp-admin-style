@@ -1,4 +1,5 @@
-.wpst__nav-list{
+.wp_admin_style .wpst__nav-list{
+
     a{
         @extend .full-w__space-between;
         
@@ -9,4 +10,7 @@
         padding: var(--space-s);
         line-height: 1;
     }
+
 }
+
+
